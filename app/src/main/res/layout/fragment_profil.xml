@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".ui.profil.ProfilFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/teal_200">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_round_account_circle_24"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/radius_oval"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:text="@string/akun"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/radius_kotak">
+
+        <ImageView
+            android:id="@+id/account"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_baseline_person_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/akun_saya"
+            android:layout_toEndOf="@+id/account"
+            android:layout_toRightOf="@+id/account"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:id="@+id/password"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/ic_baseline_password_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ubah_password"
+            android:layout_toEndOf="@+id/password"
+            android:layout_toRightOf="@+id/password"
+            android:layout_marginTop="110dp"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/ic_baseline_settings_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pengaturan"
+            android:layout_toEndOf="@+id/setting"
+            android:layout_toRightOf="@+id/setting"
+            android:layout_marginTop="155dp"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:id="@+id/help"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/ic_baseline_help_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bantuan"
+            android:layout_toEndOf="@+id/help"
+            android:layout_toRightOf="@+id/help"
+            android:layout_marginTop="205dp"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="250dp"
+            android:src="@drawable/ic_baseline_info_24" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:layout_toEndOf="@+id/help"
+            android:layout_toRightOf="@+id/help"
+            android:layout_marginTop="255dp"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="0sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.383" />
+
+
+
+</RelativeLayout>

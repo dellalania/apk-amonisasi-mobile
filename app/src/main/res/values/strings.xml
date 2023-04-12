@@ -1,0 +1,32 @@
+<resources>
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+    <string name="app_name">Amonisasi</string>
+    <string name="title_home">Home</string>
+    <string name="title_riwayat">Riwayat</string>
+    <string name="title_jadwal">Jadwal</string>
+    <string name="title_profil">Profil</string>
+    <string name="home">AMONISASI</string>
+    <string name="home1">Selalu Jaga Kesehatan Ibu dan Bayi</string>
+    <string name="kategori">Kategori</string>
+    <string name="bayi">Perkembangan Bayi</string>
+    <string name="ibu">Perkembangan Janin Ibu</string>
+    <string name="suntik">Jenis-jenis Obatan</string>
+    <string name="obat">Panduan Sehari-hari</string>
+    <string name="susu">Pemberian Asi</string>
+    <string name="diagram">Pemantauan grafik</string>
+    <string name="pengumuman">Pengumuman</string>
+    <string name="cari_info">Cari Info...</string>
+    <string name="calender">Calender</string>
+    <string name="agenda">Agenda</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="grafik">Grafik</string>
+    <string name="catatan">Catatan</string>
+    <string name="akun_saya">Akun Saya</string>
+    <string name="ubah_password">Password</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="info">Tentang Aplikasi</string>
+    <string name="akun">Username_@yahoo.com</string>
+
+</resources>
